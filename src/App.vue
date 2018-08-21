@@ -2,16 +2,22 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld/>
+    <!-- <Rekognition/> -->
+    <PhotoUpload/>
+    <PhotoList/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import Rekognition from './components/Rekognition'
+import PhotoUpload from './components/PhotoUpload'
+import PhotoList from './components/PhotoList'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld, Rekognition, PhotoUpload, PhotoList
   }
 }
 </script>
